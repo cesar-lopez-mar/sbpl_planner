@@ -8,6 +8,7 @@ using namespace std;
 
 /** ROS **/
 #include <ros/ros.h>
+#include <tf/LinearMath/Quaternion.h>
 
 // Costmap used for the map representation
 #include <costmap_2d/costmap_2d_ros.h>
