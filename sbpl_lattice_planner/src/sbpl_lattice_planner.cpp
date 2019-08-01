@@ -386,6 +386,10 @@ bool SBPLLatticePlanner::makePlan(const geometry_msgs::PoseStamped& start,
     gui_path.poses[i].pose.position.x = plan[i].pose.position.x;
     gui_path.poses[i].pose.position.y = plan[i].pose.position.y;
     gui_path.poses[i].pose.position.z = plan[i].pose.position.z;
+    gui_path.poses[i].pose.orientation.x = plan[i].pose.orientation.x;
+    gui_path.poses[i].pose.orientation.y = plan[i].pose.orientation.y;
+    gui_path.poses[i].pose.orientation.z = plan[i].pose.orientation.z;
+    gui_path.poses[i].pose.orientation.w = plan[i].pose.orientation.w;
   }
   plan.push_back(goal);
   gui_path.poses.push_back(goal);
