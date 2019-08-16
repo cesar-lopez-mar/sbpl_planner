@@ -48,9 +48,9 @@ if UNICYCLE_MPRIM_16DEGS == 1
     %multipliers (multiplier is used as costmult*cost)
     forwardcostmult = 1;
     backwardcostmult = 1;
-    forwardandturncostmult = 3;
+    forwardandturncostmult = 1;
     sidestepcostmult = 2;
-    turninplacecostmult = 1;
+    turninplacecostmult = 3;
 
     %note, what is shown x,y,theta *changes* (that is, dx,dy,dtheta and not absolute numbers)
 
